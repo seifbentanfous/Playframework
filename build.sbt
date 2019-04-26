@@ -1,3 +1,4 @@
+
 name := """play-scala-seed"""
 organization := "com.example"
 
@@ -19,10 +20,7 @@ libraryDependencies ++= Seq(
   "com.sksamuel.elastic4s" %% "elastic4s-http" % "6.5.1",
   "com.sksamuel.elastic4s" %% "elastic4s-play-json" % "6.5.1",
   "com.sksamuel.elastic4s" %% "elastic4s-json4s" % "6.5.1",
-  "org.webjars" % "swagger-ui" % "3.22.0",
-  "com.typesafe.play" %% "play" % "2.7.0",
-  "io.swagger" % "swagger-core" % "2.0.0-rc0",
-  "io.swagger" %% "swagger-play2" % "1.7.1"
+
 )
 
 
